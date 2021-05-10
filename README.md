@@ -1,4 +1,5 @@
-# BookGenreClassification
+# Book Genre Classification
+Introduction:
 Books are the source of knowledge. There are
 hundreds and thousands of books in libraries. To reduce
 the time to search for a particular book in the aisles of
@@ -9,7 +10,7 @@ the world of books, is possible by using, Deep Learning
 and Machine Learning models. The learning capability
 of the designed model helps us to predict the genre of
 the books.
-
+Purpose of the idea:
 There are multiple ways to organize books in
 libraries. For instance, one can use the Authors and
 book title, or date published and book title. However,
@@ -18,7 +19,7 @@ both the reader and librarian. There are multiple type of
 genres. The report only focusses on 30 of them which
 are presented in the Book Genre Classification dataset
 extracted from the paper
-
+Approach:
 In the project, the genres of the books are identified
 based on the title of the book. The book cover image is
 used to extract the title using Optical Character Recognition
@@ -36,7 +37,7 @@ trained LSTM model to obtain the genre of the book.
 ![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
 
 ![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
-
+Experiments:
 Accuracy is used as an evaluation metric to evaluate the
 performance of the model.The project tries to identify the comparison between
 different ways of generating the word embeddings from
@@ -51,7 +52,7 @@ Open-CV, pytesseract, Wordcloud.
 
 
 ![image](https://user-images.githubusercontent.com/55109738/117731920-ec381b00-b1bc-11eb-8062-ae6e049b9ac1.png)
-
+Conclusion:
 The paper demonstrated an approach to develop
 a complete application that can capture real-time book
 cover images, extract the book title, and predict its
