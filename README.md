@@ -47,9 +47,10 @@ language and utilizes its various libraries like Keras,
 numpy, pandas, matplolib, gensim, scikit-learn, NLTK,
 Open-CV, pytesseract, Wordcloud.
 
-![image](https://user-images.githubusercontent.com/55109738/117731664-851a6680-b1bc-11eb-81d8-35d788b76f96.png)
+![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
 
-![image](https://user-images.githubusercontent.com/55109738/117731731-a24f3500-b1bc-11eb-8d6d-8bc0062d7f1b.png)
+![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
+
 
 
 
