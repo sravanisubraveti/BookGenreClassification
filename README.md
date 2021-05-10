@@ -48,4 +48,6 @@ numpy, pandas, matplolib, gensim, scikit-learn, NLTK,
 Open-CV, pytesseract, Wordcloud.
 
 Approach
+![image](https://user-images.githubusercontent.com/55109738/117731396-11785980-b1bc-11eb-89d4-f15aa3f420a9.png)
+
 
