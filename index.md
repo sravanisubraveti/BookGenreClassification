@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+# Book Genre Classification
 
-You can use the [editor on GitHub](https://github.com/sravanisubraveti/BookGenreClassification/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Introduction:
+Books are the source of knowledge. There are
+hundreds and thousands of books in libraries. To reduce
+the time to search for a particular book in the aisles of
+the library, we can set up a system to scan the image of
+the book cover or enter the book title to give the genre
+and aisle number according to the title. Digitalization, in
+the world of books, is possible by using, Deep Learning
+and Machine Learning models. The learning capability
+of the designed model helps us to predict the genre of
+the books.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Purpose of the idea:
+There are multiple ways to organize books in
+libraries. For instance, one can use the Authors and
+book title, or date published and book title. However,
+organizing books based on genres, makes life easier for
+both the reader and librarian. There are multiple type of
+genres. The report only focusses on 30 of them which
+are presented in the Book Genre Classification dataset
+extracted from the paper
 
-### Markdown
+Approach:
+In the project, the genres of the books are identified
+based on the title of the book. The book cover image is
+used to extract the title using Optical Character Recognition
+(OCR). OCR is implemented using tesseract in
+OpenCv library in Python. To process the obtained text,
+the latest technique like Natural Language Processing
+(NLP) is used. The obtained features are passed to
+the Recurrent Neural Network (RNN) model which has
+Long-Short Term Memory (LSTM) layer
+A book cover image is captured and passed to OCR module
+to identify and recognize the title. The obtained title is
+preprocessed using NLP techniques and passed to the
+trained LSTM model to obtain the genre of the book.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
 
-```markdown
-Syntax highlighted code block
+![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
 
-# Header 1
-## Header 2
-### Header 3
+Experiments:
+Accuracy is used as an evaluation metric to evaluate the
+performance of the model.The project tries to identify the comparison between
+different ways of generating the word embeddings from
+the corpus of text dataset available. Moreover, multiple
+types of deep learning models like CNN, RNN, simple
+neural network are developed to compare their performances.
+The entire project is developed in Python 3.6
+language and utilizes its various libraries like Keras,
+numpy, pandas, matplolib, gensim, scikit-learn, NLTK,
+Open-CV, pytesseract, Wordcloud.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+![image](https://user-images.githubusercontent.com/55109738/117731920-ec381b00-b1bc-11eb-8062-ae6e049b9ac1.png)
+Conclusion:
+The paper demonstrated an approach to develop
+a complete application that can capture real-time book
+cover images, extract the book title, and predict its
+genre. Although the results were not overwhelming in
+comparison with the human accuracy of 75% to predict
+the genres, the best model selected gave an accuracy of
+52.23%. Overfitting due to ambiguous genre categories
+was concluded as the main reason for obtaining the low
+accuracy. Moreover, as per the analysis of the experiments
+performed, GloVe embeddings outperformed in
+generating an efficient word embedding to represent the
+titles of the book in comparison to Word2Vec and the
+trainable Embedding layer. According to the accuracies
+achieved, Recurrent Neural Networks performed well
+in comparison to the Convolutional Neural networks in
+classifying the book titles
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sravanisubraveti/BookGenreClassification/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
