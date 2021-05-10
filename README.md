@@ -1,7 +1,6 @@
 # Book Genre Classification
 
 Introduction:
-
 Books are the source of knowledge. There are
 hundreds and thousands of books in libraries. To reduce
 the time to search for a particular book in the aisles of
@@ -12,6 +11,7 @@ the world of books, is possible by using, Deep Learning
 and Machine Learning models. The learning capability
 of the designed model helps us to predict the genre of
 the books.
+
 Purpose of the idea:
 There are multiple ways to organize books in
 libraries. For instance, one can use the Authors and
@@ -23,7 +23,6 @@ are presented in the Book Genre Classification dataset
 extracted from the paper
 
 Approach:
-
 In the project, the genres of the books are identified
 based on the title of the book. The book cover image is
 used to extract the title using Optical Character Recognition
