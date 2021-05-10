@@ -28,16 +28,17 @@ the latest technique like Natural Language Processing
 (NLP) is used. The obtained features are passed to
 the Recurrent Neural Network (RNN) model which has
 Long-Short Term Memory (LSTM) layer
-A
-book cover image is captured and passed to OCR module
+A book cover image is captured and passed to OCR module
 to identify and recognize the title. The obtained title is
 preprocessed using NLP techniques and passed to the
 trained LSTM model to obtain the genre of the book.
 
+![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
+
+![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
 
 Accuracy is used as an evaluation metric to evaluate the
-performance of the model.
-The project tries to identify the comparison between
+performance of the model.The project tries to identify the comparison between
 different ways of generating the word embeddings from
 the corpus of text dataset available. Moreover, multiple
 types of deep learning models like CNN, RNN, simple
@@ -47,9 +48,10 @@ language and utilizes its various libraries like Keras,
 numpy, pandas, matplolib, gensim, scikit-learn, NLTK,
 Open-CV, pytesseract, Wordcloud.
 
-![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
 
-![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
+
+![image](https://user-images.githubusercontent.com/55109738/117731920-ec381b00-b1bc-11eb-8062-ae6e049b9ac1.png)
+
 
 
 
