@@ -46,10 +46,10 @@ The entire project is developed in Python 3.6
 language and utilizes its various libraries like Keras,
 numpy, pandas, matplolib, gensim, scikit-learn, NLTK,
 Open-CV, pytesseract, Wordcloud.
-
-![image](https://user-images.githubusercontent.com/55109738/117731396-11785980-b1bc-11eb-89d4-f15aa3f420a9.png)
 Training Process
-![image](https://user-images.githubusercontent.com/55109738/117731479-3371dc00-b1bc-11eb-8817-884263d977b8.png)
+![image](https://user-images.githubusercontent.com/55109738/117731396-11785980-b1bc-11eb-89d4-f15aa3f420a9.png)
 Testing process
+![image](https://user-images.githubusercontent.com/55109738/117731479-3371dc00-b1bc-11eb-8817-884263d977b8.png)
+
 
 
