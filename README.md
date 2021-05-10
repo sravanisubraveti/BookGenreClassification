@@ -1,5 +1,7 @@
 # Book Genre Classification
+
 Introduction:
+
 Books are the source of knowledge. There are
 hundreds and thousands of books in libraries. To reduce
 the time to search for a particular book in the aisles of
@@ -19,7 +21,9 @@ both the reader and librarian. There are multiple type of
 genres. The report only focusses on 30 of them which
 are presented in the Book Genre Classification dataset
 extracted from the paper
+
 Approach:
+
 In the project, the genres of the books are identified
 based on the title of the book. The book cover image is
 used to extract the title using Optical Character Recognition
@@ -37,6 +41,7 @@ trained LSTM model to obtain the genre of the book.
 ![image](https://user-images.githubusercontent.com/55109738/117731812-c01c9a00-b1bc-11eb-82e0-ca470b6e184b.png)
 
 ![image](https://user-images.githubusercontent.com/55109738/117731831-c743a800-b1bc-11eb-93ba-b95d00e6498e.png)
+
 Experiments:
 Accuracy is used as an evaluation metric to evaluate the
 performance of the model.The project tries to identify the comparison between
