@@ -52,7 +52,22 @@ Open-CV, pytesseract, Wordcloud.
 
 ![image](https://user-images.githubusercontent.com/55109738/117731920-ec381b00-b1bc-11eb-8062-ae6e049b9ac1.png)
 
-
+The paper demonstrated an approach to develop
+a complete application that can capture real-time book
+cover images, extract the book title, and predict its
+genre. Although the results were not overwhelming in
+comparison with the human accuracy of 75% to predict
+the genres, the best model selected gave an accuracy of
+52.23%. Overfitting due to ambiguous genre categories
+was concluded as the main reason for obtaining the low
+accuracy. Moreover, as per the analysis of the experiments
+performed, GloVe embeddings outperformed in
+generating an efficient word embedding to represent the
+titles of the book in comparison to Word2Vec and the
+trainable Embedding layer. According to the accuracies
+achieved, Recurrent Neural Networks performed well
+in comparison to the Convolutional Neural networks in
+classifying the book titles
 
 
 
